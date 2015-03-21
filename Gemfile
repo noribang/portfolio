@@ -37,3 +37,9 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
+
+gem 'jquery-turbolinks' # fix for TypeError: Object doesn't support this property or method 
+						# run after adding here: bundle install 
+
+gem 'coffee-script-source', '1.8.0' # fix for TypeError: Object doesn't support this property or method 
+									# run after adding here: bundle update coffee-script-source
