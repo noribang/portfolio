@@ -22,4 +22,5 @@ test:
 
 production:
   <<: *default
+  adapter: postgresql #added in order to deploy 
   database: db/production.sqlite3
